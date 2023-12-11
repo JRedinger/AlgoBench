@@ -4,7 +4,6 @@
 using namespace std;
 
 void algo::findDuplicates(int* array, int n) {
-	map<int, vector<int>> dup;
 	vector<int> skip;
 	for (int i = 0; i != n + 1; i++) {
 		for (int j = i + 1; j <= n + 1; j++) {

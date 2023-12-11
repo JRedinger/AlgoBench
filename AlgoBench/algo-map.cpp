@@ -2,7 +2,6 @@
 
 using namespace std;
 void algomap::findDuplicates(int* array, int n) {
-	map<int, vector<int>> dup;
 	for (int i = 0; i != n + 1; i++) {
 		dup[array[i]].push_back(i);
 	}
