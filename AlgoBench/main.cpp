@@ -49,7 +49,6 @@ int main()
 		return 0;
 	}
 
-	int* randomArray;
 	int array[n + 1];
 	genArray(array, n);
 
